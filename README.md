@@ -1,12 +1,49 @@
-# React + Vite
+# 🌦 Weather Now  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🔗 *Live Demo:* [Weather Now Hosted App]-> https://shiny-treacle-ae2dc8.netlify.app/
 
-Currently, two official plugins are available:
+A modern, dynamic weather application built with *React + Vite* and styled using *Tailwind CSS*.  
+The app fetches real-time weather data using the **[Open-Meteo API](https://open-meteo.com/)** and displays it with a glassmorphic UI.  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features  
+- 🌍 Search weather by city (auto-suggestions from Open-Meteo Geocoding API)  
+- 🌤 Real-time weather data (temperature, humidity, wind, visibility)  
+- 🎨 Glassmorphism UI with dynamic backgrounds (GIFs / video)  
+- 🌡 Temperature unit toggle (°C / °F)  
+- 📱 Fully responsive design  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠 Tech Stack  
+
+*Languages & Frameworks:*  
+- ⚛ React (with Vite)  
+- 🎨 Tailwind CSS  
+- 📜 JavaScript (ES6+)  
+
+*APIs Used:*  
+- 🌐 [Open-Meteo Weather API](https://open-meteo.com/)  
+- 🗺 [Open-Meteo Geocoding API](https://open-meteo.com/en/docs/geocoding-api)  
+
+---
+
+## 📂 Project Structure  
+
+```bash
+weather-now/
+│
+├── public/                 # Static files
+├── src/
+│   ├── assets/             # Images, gifs, video backgrounds
+│   ├── components/         # Reusable UI components
+│   │   ├── WeatherBackground.jsx
+│   │   ├── Icons.jsx
+│   │   └── Helper.js
+│   ├── App.jsx             # Main app logic
+│   └── index.css
+│
+├── package.json
+├── vite.config.js
+└── README.md 
