@@ -1,14 +1,14 @@
 import React from 'react';
 
 // Import animated GIF assets for different weather conditions
-import Thunderstorm from '../assets/Thunderstorm.gif';
-import Rain from '../assets/Rain.gif';
-import SnowDay from '../assets/Snow.gif';
-import ClearDay from '../assets/ClearDay.gif';
-import ClearNight from '../assets/ClearNight.gif';
-import CloudsDay from '../assets/CloudsDay.gif';
-import CloudsNight from '../assets/CloudsNight.gif';
-import Haze from '../assets/Haze.gif';
+import Thunderstorm from '../assets/thunderstorm.gif';
+import Rain from '../assets/rain.gif';
+import SnowDay from '../assets/snow.gif';
+import ClearDay from '../assets/clearDay.gif';
+import ClearNight from '../assets/clearNight.gif';
+import CloudsDay from '../assets/cloudsDay.gif';
+import CloudsNight from '../assets/cloudsNight.gif';
+import Haze from '../assets/haze.gif';
 
 // Import fallback video background
 import video from '../assets/857251-hd_1620_1080_25fps.mp4';
